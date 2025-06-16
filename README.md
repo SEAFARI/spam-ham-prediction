@@ -30,7 +30,7 @@ Welcome to the Spam-Ham Email Classification project! This end-to-end system tak
 
 ## Performance Metrics
 
-| Metric    | Class 0 (Ham) | Class 1 (Spam) | Overall |
+| Metric    | Class 0 (Spam)| Class 1 (Ham) | Overall |
 | :-------- | :-----------: | :------------: | :------ |
 | Precision |      0.98     |      0.97      | 0.97    |
 | Recall    |      0.79     |      1.00      | 0.97    |
