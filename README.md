@@ -51,9 +51,9 @@ Welcome to the Spam-Ham Email Classification project! This end-to-end system tak
 **Confusion Matrix**
 
 ```text
-          Predicted Ham    Predicted Spam
-Actual Ham          118               31
-Actual Spam           2              964
+          Predicted Spam    Predicted Ham
+Actual Spam          118             31
+Actual Ham           2              964
 ```
 
 ## ROC Curve
