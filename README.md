@@ -22,10 +22,15 @@ Welcome to the Spam-Ham Email Classification project! This end-to-end system tak
 ## Key Features & Achievements
 
   Data Processing & Feature Extraction: Transformed raw email content into TF‑IDF features, capturing important terms while reducing noise.
+  
   High Accuracy: Achieved 97.04% accuracy on the test set, demonstrating strong generalization for real-world spam detection.
+  
   Robust Evaluation: Detailed performance metrics including precision, recall, F1-score, and confusion matrix to understand class-specific behavior.
+  
   User-Friendly Interface: Built a Streamlit web app for interactive classification, allowing users to paste or upload email text and receive immediate predictions.
+  
   Containerized Deployment: Packaged the entire application with Docker for consistent environments across development and production.
+  
   Version Control & Experiment Tracking: Managed code versions and experiment logs with Git and GitHub.
 
 ## Performance Metrics
