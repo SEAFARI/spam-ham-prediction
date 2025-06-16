@@ -42,20 +42,15 @@ Welcome to the Spam-Ham Email Classification project! This end-to-end system tak
 
 * Test Set: 97.04%
 
-* ROC AUC Score: 89%
-
-* Training Set: 96.72%
-
-* Test Set: 97.04%
-
 **Confusion Matrix**
 
-```text
-          Predicted Spam    Predicted Ham
-Actual Spam          118             31
-Actual Ham           2              964
-```
+|                    | Predicted Spam | Predicted Ham |
+|--------------------|----------------|---------------|
+| **Actual Spam**    |      118       |      31       |
+| **Actual Ham**     |       2        |      964      |
 
+* ROC AUC Score: 89%
+  
 ## ROC Curve
 
 ![download (1)](https://github.com/user-attachments/assets/48262940-c8e6-4773-97af-a2d0b16245a3)
@@ -114,3 +109,5 @@ Actual Ham           2              964
   - Real-Time Email Integration: Connect to an email server (e.g., IMAP) to classify incoming mails automatically.
   - Visualization Dashboard: Add more interactive plots in the Streamlit app to monitor spam trends over time.
   - API Endpoint: Expose the classification model via a REST API using Flask or FastAPI.
+
+**If you find this project useful, feel free to  star the repository and share it with others!**
